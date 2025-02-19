@@ -5,68 +5,63 @@
 }
 
 #navbar-container {
-  position:relative;
-  float:left;
+  float: left;
   width: 100%;
+  position: relative;
 }
 
 #main-navbar ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   position: relative;
   left: 50%;
-  float: left
+  float: left;
 }
 
 #main-navbar ul li {
   float: left;
   position: relative;
   right: 50%;
-}
-
-nav ul li#onpage {
-
-}
-
-nav ul li a {
-  color: #fff;
   display: block;
-  text-decoration: none;
-  padding: 10px 20px;
-  
 }
 
-nav ul li a:hover {
-  text-decoration: underline overline;
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
   background-color: #000;
 }
 
-
-div#sidebar {
-  clear: both;
+#onpage {
+  text-decoration: underline overline;
 }
 
-div#sidebar ul li {
-  list-style-type: none;
-  
-}
-
-div#sidebar ul li a {
-  text-decoration: none;
-}
-
-div#sidebar li {
-  padding: 15px 0;
-}
-
-#sidebar-container {
-  display: block;
-  text-align: center;
-  list-style-type: none;
+#sidebar {
   position: fixed;
-  right: 0%;
+  right:0%;
   background-color: red;
   height: 100%;
   width: 20%;
 }
 
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
 
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
